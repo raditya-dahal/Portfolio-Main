@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 2, 33);
+  color: White;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+/* ----------Header------------------------- */
+/* ----------------------------------------  */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(6, 3, 45);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  a {
+    text-decoration: none;
+    color: White;
+  }
+  a:hover{
+    color: rgb(255, 255, 50);
+    font-size: 1.05rem;
+  }
+  .home{
+    color: rgb(255, 255, 50);
+  }
+}
+.left {
+  font-size: 2rem;
+  .portcolor{
+    color: rgb(255, 255, 50);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+}
+
+/* -------Main (First Section)-------------- */
+/* ----------------------------------------- */
+
+
+.firstsection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.firstsection > div{
+  width: 40%;
+}
+
+#element{
+  color: rgb(255, 255, 50);
+}
+
+.leftsection{
+  font-size: 3rem;
+  .yellow{
+    color: rgb(255, 255, 50);
+  }
+}
+
+.rightsection img{
+  width: 80%
+  margin: 50px 0
+
+}
+
+main hr{
+   boarder:0;
+   background-color:  rgb(6, 3, 45);
+   height: 1.2px;
+   margin: 60px 84px
+}
+
+
+/* ---------------Main Second Section------------ */
+/* --------------------------------------------- */
+
+.secondsection{
+  h1{
+    margin: auto;
+    max-width: 80vw;
+    font-size: 1.9rem;
+  }
+}

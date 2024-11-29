@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---------------------- Head------------------------------------->
+<!---------------------------------------------------------------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raditya - Developer Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/experience.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/Screen.html">
+
+</head>
+
+<!---------------------------Body----------------------------------->
+<!------------------------------------------------------------------>
+
+
+<body>
+
+    <!--------------------Header------------------------------------->
+    <!--------------------------------------------------------------->
+    <header>
+        <nav>
+            <div class="left">
+                <a href="/index.html"> Raditya's <span class="portcolor">Portfolio</span></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html"><span class="home">Home</span></a></li>
+                    <li><a href="/">Experience</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------------Main----------------------------------->
+    <!------------------------------------------------------------------>
+
+
+    <main>
+
+        <!-------------------------(First Section)--------------->
+        <!--------------------------------------------------------->
+
+        <section class="firstsection">
+
+            <!-- -------------------First Left Section---------------- -->
+            <!-- -------------------------------------------------------->
+
+
+            <div class="leftsection">
+                Hi, My name is <span class="yellow">Raditya</span>
+                <div>and I am a Passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+            </div>
+
+            <!-- ------------------Right Section---------------- -->
+            <!-- ----------------------------------------------- -->
+
+            <div class="rightsection">
+                <img src="/Raditya PNG.webp" alt="">
+            </div>
+        </section>
+
+        <!------------------------(Second Section)---------------->
+        <!--------------------------------------------------------->
+
+        <section class="secondsection">
+
+            <!--------------EXPERIENCE------------------->
+            <!----------------------------------------->
+
+            <div class="experience-container">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Web Developer</h3>
+                    <span class="company">Tech Solutions Inc.</span>
+                    <span class="duration">June 2020 - Present</span>
+                    <p class="description">Developing and maintaining web applications using HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+                <div class="experience-item">
+                    <h3>Software Engineer Intern</h3>
+                    <span class="company">Innovatech</span>
+                    <span class="duration">Jan 2020 - May 2020</span>
+                    <p class="description">Assisted in the development of software solutions and collaborated with
+                        senior engineers.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor'],
+            typeSpeed: 80,
+            backSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
