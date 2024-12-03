@@ -2,11 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0;
+    margin: 80px 0;
   }
-/* .experience-eduction > div{
-    width: 40%;
-} */
+
 .experience-container {
     /* max-width: 40%; */
     /* margin: auto; */
