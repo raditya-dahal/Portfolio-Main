@@ -28,15 +28,15 @@
     <!--------------------------------------------------------------->
     <header>
         <nav>
-            <div class="left">
-                <a href="/index.html"> Raditya's <span class="portcolor">Portfolio</span></a>
+            <div id="left">
+                <a href="/index.html"> Raditya's <span id="portcolor">Portfolio</span></a>
             </div>
-            <div class="right">
+            <div id="right">
                 <ul>
-                    <li><a href="/index.html"><span class="home">Home</span></a></li>
-                    <li><a href="/">Experience</a></li>
-                    <li><a href="/">Education</a></li>
-                    <li><a href="/">Projects</a></li>
+                    <li><a href="/index.html"><span id="home">Home</span></a></li>
+                    <li><a href="#experience-container">Experience</a></li>
+                    <li><a href="#education-container">Education</a></li>
+                    <li><a href="#projects_container">Projects</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>
             </div>
@@ -52,19 +52,19 @@
         <!-------------------------(First Section)--------------->
         <!--------------------------------------------------------->
 
-        <section class="firstsection">
+        <section id="firstsection">
 
             <!-- -------------------First Left Section---------------- -->
             <!-- -------------------------------------------------------->
 
 
-            <div class="leftsection">
-                Hi, My name is <span class="yellow">Raditya</span>
+            <div id="leftsection">
+                Hi, My name is <span id="yellow">Raditya</span>
                 <div>and I am a Passionate</div>
                 <!-- Element to contain animated typing -->
                 <span id="element"></span>
 
-                <div class="buttons">
+                <div id="buttons">
                     <a href="/Raditya Dahal CV Resume.pdf" target="_blank"> Download CV</a>
                     <a href="https://github.com/raditya-dahal" target="_blank"> GitHub</a>
                 </div>
@@ -74,7 +74,7 @@
             <!-- ------------------Right Section---------------- -->
             <!-- ----------------------------------------------- -->
 
-            <div class="rightsection">
+            <div id="rightsection">
                 <img src="/Raditya PNG.webp" alt="">
             </div>
         </section>
@@ -82,65 +82,71 @@
         <!------------------------(Second Section)---------------->
         <!--------------------------------------------------------->
 
-        <section class="secondsection">
+        <section id="secondsection">
 
             <!--------------EXPERIENCE------------------>
             <!----------------------------------------->
-            <div class="experience-eduction">
+            <div id="experience-eduction">
 
-                <div class="experience-container">
+                <div id="experience-container">
                     <h2>Experience</h2>
-                    <div class="experience-item">
+                    <div id="experience-item">
                         <h3>Web Developer</h3>
-                        <span class="company">Lamdec</span>
-                        <span class="duration">July 2024 - Present</span>
-                        <p class="description">Development of web applications using HTML, CSS, and JavaScript. Collaborated with cross-functional teams to design and implement.
+                        <span id="company">Lamdec</span>
+                        <span id="duration">July 2024 - Present</span>
+                        <p id="description">Development of web applications using HTML, CSS, and JavaScript. Collaborated with cross-functional teams to design and implement.
                         </p>
                     </div>
-                    <div class="experience-item">
+                    <div id="experience-item">
                         <h3>Graphic Designer</h3>
-                        <span class="company">Innovatech</span>
-                        <span class="duration">Jan 2020 - May 2020</span>
-                        <p class="description">Creating art for various projects using Adobe Creative Suite. Designing different graphical art and logos.</p>
+                        <span id="company">Innovatech</span>
+                        <span id="duration">Jan 2020 - May 2020</span>
+                        <p id="description">Creating art for various projects using Adobe Creative Suite. Designing different graphical art and logos.</p>
                     </div>
                 </div>
 
+                 <!--------------Education------------------>
+                <!----------------------------------------->
 
-                <div class="education-container">
+
+                <div id="education-container">
                     <h2>Education</h2>
-                    <div class="education-item">
+                    <div id="education-item">
                         <h3>Bachelor of Engineering Information Technology</h3>
-                        <span class="university">Metropolia University of Applied Sciences</span>
-                        <span class="duration">April 2024 - March 2028</span>
-                        <p class="description">Learning and developing skills in software development, data analysis,
+                        <span id="university">Metropolia University of Applied Sciences</span>
+                        <span id="duration">April 2024 - March 2028</span>
+                        <p id="description">Learning and developing skills in software development, data analysis,
                             database, operating systems, digital circuit, programming language and more</p>
                     </div>
-                    <div class="education-item">
+                    <div id="education-item">
                         <h3>Video Production</h3>
-                        <span class="university">Creative Institute</span>
-                        <span class="duration">Jan 2020 - May 2020</span>
-                        <p class="description">Learned and developed skills in video creation, video editing and overall
+                        <span id="university">Creative Institute</span>
+                        <span id="duration">Jan 2020 - May 2020</span>
+                        <p id="description">Learned and developed skills in video creation, video editing and overall
                             video production</p>
                     </div>
                 </div>
             </div>
 
+            <!--------------Project Container------------------>
+            <!----------------------------------------->
 
-            <div class="projects_container">
 
-                <div class="portfolio">
+            <div id="projects_container">
+
+                <div id="portfolio">
                     <h3>Portfolio</h3>
-                    <div class="portfolio-item">
+                    <div id="portfolio-item">
                         <h4>Project 1</h4>
                         <p>Project 1 description</p>
-                        <a href="#" class="portfolio-link">View Project</a>
+                        <a href="#" id="portfolio-link">View Project</a>
 
                     </div>
                 </div>
 
-                <div class="youtube">
+                <div id="youtube">
                     <h3>YouTube Channel</h3>
-                    <div class="youtube-item">
+                    <div id="youtube-item">
                         <iframe width="100%" src="https://www.youtube.com/embed/L0gTnALp620?si=Sl2kt_UVMDaF6rEV"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -150,7 +156,7 @@
                 </div>
 
 
-                <div class="website">
+                <div id="website">
                     <h3>Personal Website</h3>
                     <p>My personal website where I post my projects and experiences</p>
 
@@ -161,18 +167,23 @@
     </main>
 
 
+
+    <!--------------Footer------------------>
+    <!----------------------------------------->
+
+
     <footer>
-        <div class="footer-container">
-            <div class="footer-content">
+        <div id="footer-container">
+            <div id="footer-content">
                 <p>Web Developer | Designer | Creator</p>
-                <ul class="social-links">
+                <ul id="social-links">
                     <li><a href="https://github.com/raditya-dahal" target="_blank">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/raditya-dahal-674629302/" target="_blank">LinkedIn</a></li>
                     <li><a href="https://www.youtube.com/@radityadahal6131" target="_blank">YouTube</a></li>
                     <li><a href="https://yourwebsite.com" target="_blank">Website</a></li>
                 </ul>
             </div>
-            <div class="footer-bottom">
+            <div id="footer-bottom">
                 <p>&copy; 2023 Raditya Dahal. All rights reserved.</p>
             </div>
         </div>

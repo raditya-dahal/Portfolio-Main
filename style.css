@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: rgb(0, 2, 33);
+  background-color: #252422;
   color: White;
   font-family: "Funnel Sans", sans-serif;
 }
@@ -17,7 +18,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 75px;
-  background-color: rgb(6, 3, 45);
+  background-color: rgb(64, 61, 57);
 }
 nav ul {
   display: flex;
@@ -31,21 +32,26 @@ nav ul li {
     color: White;
   }
   a:hover{
-    color: rgb(255, 255, 50);
+    color: rgb(234, 66, 0);
     font-size: 1.05rem;
   }
-  .home{
-    color: rgb(255, 255, 50);
+  #home{
+    color: rgb(234, 66, 0);
   }
 }
-.left {
+#left {
   font-size: 2rem;
-  .portcolor{
-    color: rgb(255, 255, 50);
+  #portcolor{
+    color: rgb(234, 66, 0);
   }
+
   a{
     text-decoration: none;
     color: white;
+  }
+
+  a:hover{
+    font-size: 1.9rem;
   }
   
 }
@@ -54,64 +60,58 @@ nav ul li {
 /* ----------------------------------------- */
 
 
-.firstsection{
+#firstsection{
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 50px 0;
 }
-.firstsection > div{
+#firstsection > div{
   width: 40%;
 }
 
 #element{
-  color: rgb(255, 255, 50);
+  color: rgb(234, 66, 0);
 }
 
-.leftsection{
+#leftsection{
   font-size: 2.5rem;
-  .yellow{
-    color: rgb(255, 255, 50);
+  #yellow{
+    color: rgb(234, 66, 0);
   }
 
   a{
     padding: 12px;
-    background-color: rgb(6, 3, 45);
+    background-color: #403D39;
     border: 2px solid white;
-    color: rgb(255, 255, 145);
+    color: rgb(234, 66, 0);
     border-radius: 6px;
     font-size: 15px;
     text-decoration: none;
   }
+  
 
-  .cv{
+  #cv{
     padding: 12px;
-    background-color: rgb(6, 3, 45);
+    background-color: #403D39;
     border: 2px solid white;
-    color: rgb(255, 255, 145);
     border-radius: 6px;
     font-size: 15px;
   }
 }
 
-.rightsection img{
+#rightsection img{
   width: 80%
   /* margin: 50px 0 */
 
 }
 
-main hr{
-   boarder:0;
-   background-color:  rgb(6, 3, 45);
-   height: 1.2px;
-   margin: 60px 84px
-}
 
 
 /* ---------------Main Second Section------------ */
 /* --------------------------------------------- */
 
-.secondsection{
+#secondsection{
   h1{
     margin: auto;
     max-width: 80vw;
