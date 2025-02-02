@@ -17,6 +17,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   height: 75px;
   background-color: rgb(64, 61, 57);
 }
@@ -111,10 +112,10 @@ nav ul li {
 /* ---------------Main Second Section------------ */
 /* --------------------------------------------- */
 
-#secondsection{
+/* #secondsection{
   h1{
     margin: auto;
     max-width: 80vw;
     font-size: 1.9rem;
   }
-}
+} */
