@@ -4,6 +4,11 @@
   align-items: center;
   margin: 50px 0;
   flex-wrap:wrap;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
 }
 
 #portfolio {
@@ -25,6 +30,8 @@ a{
     color: rgb(204, 197, 185);
   }
 }
+
+
 
 #portfolio:hover {
   background-color: rgb(39, 39, 39);
@@ -67,6 +74,9 @@ a{
   transition: background-color 0.3s, transform 0.3s;
   width: 400px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   h3 {
     margin-bottom: 1%;
@@ -78,3 +88,4 @@ a{
   background-color: rgb(39, 39, 39);
   transform: translateY(-2px);
 }
+ 
