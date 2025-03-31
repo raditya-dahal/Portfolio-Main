@@ -15,7 +15,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/Portfolio/footer.css">
     <link rel="stylesheet" href="/Portfolio/projects.css">
-    <link rel="stylesheet" href="/responsive.css">
+    <link rel="stylesheet" href="/Portfolio/responsive.css">
 
 </head>
 
@@ -33,7 +33,10 @@
                 <a href="/index.html"> Raditya's <span id="portcolor">Portfolio</span></a>
             </div>
             <div id="right">
-                <ul>
+                <button id="menu-toggle" aria-label="Toggle menu">
+                    ☰
+                </button>
+                <ul id="menu">
                     <li><a href="/index.html"><span id="home">Home</span></a></li>
                     <li><a href="#experience-container">Experience</a></li>
                     <li><a href="#education-container">Education</a></li>
@@ -203,6 +206,20 @@
             typeSpeed: 80,
             backSpeed: 50,
             loop: true
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const menu = document.getElementById('menu');
+    
+            menuToggle.addEventListener('click', function() {
+                if (menu.style.display === 'flex') {
+                    menu.style.display = 'none';
+                } else {
+                    menu.style.display = 'flex';
+                }
+            });
         });
     </script>
 

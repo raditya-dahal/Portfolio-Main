@@ -1,4 +1,5 @@
 # Import the Turtle Graphics Module
+import asyncio
 import random
 import turtle
 
